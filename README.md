@@ -29,8 +29,11 @@ The dataset used is the **Persian Wikipedia dump** available on Kaggle, split in
 ### Article Length Distribution
 Below is the histogram of article lengths before filtering:
 
-![Article Length Distribution](histo.png)
+<div align="center">
 
+<img src="histo.png" alt="Article Length Distribution" width="600"/>
+
+</div>
 ---
 
 ## 3. Model Implementation
@@ -81,7 +84,6 @@ These results confirm that training on limited hardware with small embedding siz
 Sample generations from the trained model include repetitive and incoherent sentences:
 
 ```
-Predicted Tokens:
 
 Predicted Tokens:
 
